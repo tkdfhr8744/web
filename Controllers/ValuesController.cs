@@ -14,7 +14,7 @@ namespace web.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "벨류 여라", "벨류 2" };
         }
 
         // GET api/values/5
